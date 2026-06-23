@@ -1,0 +1,18 @@
+services:
+
+  traffic-copilot:
+
+    build: .
+
+    container_name: traffic-copilot
+
+    ports:
+      - "8501:8501"
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped

@@ -1,0 +1,14 @@
+streamlit
+langgraph
+langchain
+langchain-openai
+openai
+sentence-transformers
+faiss-cpu
+pandas
+numpy
+pydantic
+python-dotenv
+folium
+streamlit-folium
+pytest

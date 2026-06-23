@@ -1,0 +1,28 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+huggingface/
+models/
+
+# Generated local data stores
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.faiss
+data/faiss_event_ids.json
+
+# Keep the approved source CSV local
+data/raw/*.csv
+!data/raw/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
