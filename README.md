@@ -241,9 +241,9 @@ Final Score =
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/traffic-copilot.git
+git clone https://github.com/Anurag9557/AI_TRAFFIC_OPERATIONS_COPILOT.git
 
-cd traffic-copilot
+cd AI_TRAFFIC_OPERATIONS_COPILOT
 ```
 
 ## Create Virtual Environment
